@@ -21,7 +21,7 @@
     },
     methods: {
       addTodo(title) {
-        this.todos.push({
+          this.todos.push({
           title
         });
       },

@@ -17,12 +17,13 @@
 export default {
   data() {
     return {
-      title: ""
+        title: ""
     };
   },
   methods: {
     handleSubmit() {
-      this.title = "";
+        this.$emit("submit", this.title); 
+        this.title = "";
     }
   }
 };

@@ -9,3 +9,8 @@
 1. Firebaseの認証機能（Authentication）を使用
 1. FirebaseのHostingサービスを使って、フロントエンドのアプリをデプロイ
 1. Herokuを使ってAPIのデプロイ
+
+
+## NuxtとVueの違い
+Nuxtだけでフロントエンドアプリケーションとして起動が可能。Nuxtでサーバー機能を有しているため。<br>
+Nuxtはstoreで状態管理ができる。

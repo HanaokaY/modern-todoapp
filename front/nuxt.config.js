@@ -5,7 +5,7 @@ export default {
   ssr: false,
 
   server: {
-    port: 8080 
+    port: 8080
   },
 
   // Global page headers: https://go.nuxtjs.dev/config-head
@@ -32,6 +32,7 @@ export default {
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
+    "@/plugins/authCheck"
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
